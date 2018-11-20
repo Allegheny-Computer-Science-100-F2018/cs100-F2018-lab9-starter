@@ -67,14 +67,9 @@ public class TodoList {
    */
   public void markTaskAsDone(int toMarkId) {
     Iterator<TodoListItem> iterator = todoItems.iterator();
-    // iterate through all of the tasks, looking for
-    //  one with a specified identifier
-    while (iterator.hasNext()) {
-      TodoListItem todoItem = iterator.next();
-      if (todoItem.getId() == toMarkId) {
-        todoItem.markDone();
-      }
-    }
+    // TODO: Add an implementation that searches for the task(s)
+    // that have the toMarkId provided as a formal parameter.
+    // Once you find a task, mark it as being done.
   }
 
   /**
@@ -85,14 +80,10 @@ public class TodoList {
   public Iterator<TodoListItem> findTasksOfPriority(String requestedPriority) {
     ArrayList<TodoListItem> itemsWithMatchingPriorityList = new ArrayList<TodoListItem>();
     Iterator<TodoListItem> iterator = todoItems.iterator();
-    // iterate through all of the tasks, looking for
-    // those with a specified requestedPriority
-    while (iterator.hasNext()) {
-      TodoListItem todoItem = iterator.next();
-      if (todoItem.getPriority().equals(requestedPriority)) {
-        itemsWithMatchingPriorityList.add(todoItem);
-      }
-    }
+    // TODO: Add an implementation that searches for the task(s)
+    // that have the requestedPriority provided as a formal parameter.
+    // Once you finnd the matching task, add it to a list and then
+    // return an iterator of that list to the calling method
     return itemsWithMatchingPriorityList.iterator();
   }
 
@@ -104,14 +95,10 @@ public class TodoList {
   public Iterator<TodoListItem> findTasksOfCategory(String requestedCategory) {
     ArrayList<TodoListItem> itemsWithMatchingCategoryList = new ArrayList<TodoListItem>();
     Iterator<TodoListItem> iterator = todoItems.iterator();
-    // iterate through all of the tasks, looking for
-    // those with a specified requestedCategory
-    while (iterator.hasNext()) {
-      TodoListItem todoItem = iterator.next();
-      if (todoItem.getCategory().equals(requestedCategory)) {
-        itemsWithMatchingCategoryList.add(todoItem);
-      }
-    }
+    // TODO: Add an implementation that searches for the task(s)
+    // that have the requestedCategory provided as a formal parameter
+    // Once you finnd the matching task, add it to a list and then
+    // return an iterator of that list to the calling method
     return itemsWithMatchingCategoryList.iterator();
   }
 
