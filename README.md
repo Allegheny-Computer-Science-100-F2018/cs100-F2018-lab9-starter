@@ -20,7 +20,7 @@ PROBLEMS?
 
 -->
 
-# cs100-F2019-lab9-starter
+# cs100-F2018-lab9-starter
 
 Designed for use with [GitHub Classroom](https://classroom.github.com/), this
 repository contains the solution for Laboratory 9 in Computer Science 100.
@@ -253,7 +253,7 @@ developed for the following software and versions:
 
 If you have found a problem with this assignment's provided source code, then
 you can go to the [Computer Science 100 Lab 9
-Starter](https://github.com/Allegheny-Computer-Science-100-F2019/cs100-F2019-lab9-starter)
+Starter](https://github.com/Allegheny-Computer-Science-100-F2018/cs100-F2018-lab9-starter)
 repository and create an issue by clicking the "Issues" tab and then clicking
 the green "New Issue" button. If you have found a problem with the [GatorGrader
 tool](https://github.com/GatorEducator/gatorgrader) and the way that it checks you
@@ -262,7 +262,7 @@ its repository. To ensure that your issue is properly resolved, please provide
 as many details as is possible about the problem that you experienced. If you
 discover a problem with the laboratory assignment sheet, then please raise an
 issue in the
-[cs100-F2019-sheets](https://github.com/Allegheny-Computer-Science-100-F2019/cs100-F2019-sheets)
+[cs100-F2018-sheets](https://github.com/Allegheny-Computer-Science-100-F2018/cs100-F2018-sheets)
 repository and mention this assignment.
 
 Students who find, and use the appropriate GitHub issue tracker to correctly
